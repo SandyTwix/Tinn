@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DAD2267296DFF3C00346EBE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2266296DFF3C00346EBE /* Webservice.swift */; };
+		2DAD226A296E04AB00346EBE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2269296E04AB00346EBE /* LoginViewModel.swift */; };
+		2DAD226C296E134700346EBE /* EmailConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD226B296E134700346EBE /* EmailConfirm.swift */; };
+		2DAD226F296E1A0A00346EBE /* ContinueRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */; };
+		2DAD2272296F03C500346EBE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2271296F03C500346EBE /* Home.swift */; };
 		2DE6AC37296C9C5D00C815EA /* TinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC36296C9C5D00C815EA /* TinnApp.swift */; };
-		2DE6AC39296C9C5D00C815EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC38296C9C5D00C815EA /* ContentView.swift */; };
 		2DE6AC3B296C9C5F00C815EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6AC3A296C9C5F00C815EA /* Assets.xcassets */; };
 		2DE6AC3E296C9C5F00C815EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6AC3D296C9C5F00C815EA /* Preview Assets.xcassets */; };
+		2DE6AC45296C9D4000C815EA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC44296C9D4000C815EA /* SplashScreen.swift */; };
+		2DE6AC47296CA46A00C815EA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC46296CA46A00C815EA /* HomeScreen.swift */; };
+		2DE6AC4F296CBA0A00C815EA /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC4E296CBA0A00C815EA /* RegisterScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DAD2266296DFF3C00346EBE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		2DAD2269296E04AB00346EBE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2DAD226B296E134700346EBE /* EmailConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirm.swift; sourceTree = "<group>"; };
+		2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueRegister.swift; sourceTree = "<group>"; };
+		2DAD2271296F03C500346EBE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2DE6AC33296C9C5D00C815EA /* Tinn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE6AC36296C9C5D00C815EA /* TinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinnApp.swift; sourceTree = "<group>"; };
-		2DE6AC38296C9C5D00C815EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DE6AC3A296C9C5F00C815EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE6AC3D296C9C5F00C815EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DE6AC44296C9D4000C815EA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		2DE6AC46296CA46A00C815EA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2DE6AC4B296CA7B700C815EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2DE6AC4C296CA8F300C815EA /* centurygothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = centurygothic.ttf; sourceTree = "<group>"; };
+		2DE6AC4D296CA8F300C815EA /* centurygothic_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = centurygothic_bold.ttf; sourceTree = "<group>"; };
+		2DE6AC4E296CBA0A00C815EA /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DAD2265296DFF0400346EBE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD2266296DFF3C00346EBE /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2DAD2268296E049200346EBE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD2269296E04AB00346EBE /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DAD226D296E19D100346EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD226B296E134700346EBE /* EmailConfirm.swift */,
+				2DE6AC46296CA46A00C815EA /* HomeScreen.swift */,
+				2DE6AC4E296CBA0A00C815EA /* RegisterScreen.swift */,
+				2DE6AC44296C9D4000C815EA /* SplashScreen.swift */,
+				2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */,
+				2DAD2271296F03C500346EBE /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2DE6AC2A296C9C5D00C815EA = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +97,13 @@
 		2DE6AC35296C9C5D00C815EA /* Tinn */ = {
 			isa = PBXGroup;
 			children = (
+				2DAD226D296E19D100346EBE /* View */,
+				2DAD2268296E049200346EBE /* ViewModel */,
+				2DAD2265296DFF0400346EBE /* Service */,
+				2DE6AC4A296CA78700C815EA /* Fonts */,
 				2DE6AC36296C9C5D00C815EA /* TinnApp.swift */,
-				2DE6AC38296C9C5D00C815EA /* ContentView.swift */,
 				2DE6AC3A296C9C5F00C815EA /* Assets.xcassets */,
+				2DE6AC4B296CA7B700C815EA /* Info.plist */,
 				2DE6AC3C296C9C5F00C815EA /* Preview Content */,
 			);
 			path = Tinn;
@@ -65,6 +115,15 @@
 				2DE6AC3D296C9C5F00C815EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DE6AC4A296CA78700C815EA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DE6AC4D296CA8F300C815EA /* centurygothic_bold.ttf */,
+				2DE6AC4C296CA8F300C815EA /* centurygothic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE6AC39296C9C5D00C815EA /* ContentView.swift in Sources */,
+				2DE6AC4F296CBA0A00C815EA /* RegisterScreen.swift in Sources */,
+				2DE6AC45296C9D4000C815EA /* SplashScreen.swift in Sources */,
 				2DE6AC37296C9C5D00C815EA /* TinnApp.swift in Sources */,
+				2DAD2272296F03C500346EBE /* Home.swift in Sources */,
+				2DE6AC47296CA46A00C815EA /* HomeScreen.swift in Sources */,
+				2DAD226F296E1A0A00346EBE /* ContinueRegister.swift in Sources */,
+				2DAD226A296E04AB00346EBE /* LoginViewModel.swift in Sources */,
+				2DAD226C296E134700346EBE /* EmailConfirm.swift in Sources */,
+				2DAD2267296DFF3C00346EBE /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,11 +332,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tinn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Tinn/Preview\\ Content";
 				DEVELOPMENT_TEAM = QK8QAKANXC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Tinn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -295,11 +361,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tinn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Tinn/Preview\\ Content";
 				DEVELOPMENT_TEAM = QK8QAKANXC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Tinn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
