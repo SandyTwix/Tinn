@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2D64E12974846E00462901 /* Nunito.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D64E02974846E00462901 /* Nunito.ttf */; };
 		2DAD2267296DFF3C00346EBE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2266296DFF3C00346EBE /* Webservice.swift */; };
 		2DAD226A296E04AB00346EBE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2269296E04AB00346EBE /* LoginViewModel.swift */; };
 		2DAD226C296E134700346EBE /* EmailConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD226B296E134700346EBE /* EmailConfirm.swift */; };
 		2DAD226F296E1A0A00346EBE /* ContinueRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */; };
 		2DAD2272296F03C500346EBE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2271296F03C500346EBE /* Home.swift */; };
+		2DAD2275296F58FB00346EBE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2274296F58FB00346EBE /* Model.swift */; };
+		2DAD2278296F7E0B00346EBE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD2277296F7E0B00346EBE /* APIManager.swift */; };
+		2DAD227B296F7F6000346EBE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2DAD227A296F7F6000346EBE /* Alamofire */; };
+		2DAD227D29705F4600346EBE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD227C29705F4600346EBE /* LoginScreen.swift */; };
+		2DAD22E829730F9C00346EBE /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD22E629730F9C00346EBE /* CenturyGothic-Bold.ttf */; };
+		2DAD22E929730F9C00346EBE /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD22E729730F9C00346EBE /* CenturyGothic.ttf */; };
+		2DD6D74F2975282A004A13DC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6D74E2975282A004A13DC /* TabBar.swift */; };
+		2DD6D751297539BB004A13DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6D750297539BB004A13DC /* HeaderView.swift */; };
+		2DD6D75329753FD5004A13DC /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6D75229753FD5004A13DC /* VideoCard.swift */; };
 		2DE6AC37296C9C5D00C815EA /* TinnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6AC36296C9C5D00C815EA /* TinnApp.swift */; };
 		2DE6AC3B296C9C5F00C815EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6AC3A296C9C5F00C815EA /* Assets.xcassets */; };
 		2DE6AC3E296C9C5F00C815EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE6AC3D296C9C5F00C815EA /* Preview Assets.xcassets */; };
@@ -21,11 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D2D64E02974846E00462901 /* Nunito.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nunito.ttf; sourceTree = "<group>"; };
 		2DAD2266296DFF3C00346EBE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		2DAD2269296E04AB00346EBE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2DAD226B296E134700346EBE /* EmailConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirm.swift; sourceTree = "<group>"; };
 		2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueRegister.swift; sourceTree = "<group>"; };
 		2DAD2271296F03C500346EBE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2DAD2274296F58FB00346EBE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2DAD2277296F7E0B00346EBE /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2DAD227C29705F4600346EBE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		2DAD22E629730F9C00346EBE /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CenturyGothic-Bold.ttf"; sourceTree = "<group>"; };
+		2DAD22E729730F9C00346EBE /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		2DD6D74E2975282A004A13DC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2DD6D750297539BB004A13DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2DD6D75229753FD5004A13DC /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
 		2DE6AC33296C9C5D00C815EA /* Tinn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE6AC36296C9C5D00C815EA /* TinnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinnApp.swift; sourceTree = "<group>"; };
 		2DE6AC3A296C9C5F00C815EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,8 +52,6 @@
 		2DE6AC44296C9D4000C815EA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		2DE6AC46296CA46A00C815EA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		2DE6AC4B296CA7B700C815EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2DE6AC4C296CA8F300C815EA /* centurygothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = centurygothic.ttf; sourceTree = "<group>"; };
-		2DE6AC4D296CA8F300C815EA /* centurygothic_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = centurygothic_bold.ttf; sourceTree = "<group>"; };
 		2DE6AC4E296CBA0A00C815EA /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAD227B296F7F6000346EBE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +78,7 @@
 		2DAD2268296E049200346EBE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2DAD2277296F7E0B00346EBE /* APIManager.swift */,
 				2DAD2269296E04AB00346EBE /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
@@ -68,14 +87,42 @@
 		2DAD226D296E19D100346EBE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2DD6D74D297527A8004A13DC /* MainBar */,
+				2DD6D74C2975272A004A13DC /* Authorisation */,
+				2DAD2271296F03C500346EBE /* Home.swift */,
+				2DD6D75229753FD5004A13DC /* VideoCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DAD2273296F589B00346EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD2274296F58FB00346EBE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DD6D74C2975272A004A13DC /* Authorisation */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD227C29705F4600346EBE /* LoginScreen.swift */,
 				2DAD226B296E134700346EBE /* EmailConfirm.swift */,
 				2DE6AC46296CA46A00C815EA /* HomeScreen.swift */,
 				2DE6AC4E296CBA0A00C815EA /* RegisterScreen.swift */,
 				2DE6AC44296C9D4000C815EA /* SplashScreen.swift */,
 				2DAD226E296E1A0A00346EBE /* ContinueRegister.swift */,
-				2DAD2271296F03C500346EBE /* Home.swift */,
 			);
-			path = View;
+			path = Authorisation;
+			sourceTree = "<group>";
+		};
+		2DD6D74D297527A8004A13DC /* MainBar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD6D74E2975282A004A13DC /* TabBar.swift */,
+				2DD6D750297539BB004A13DC /* HeaderView.swift */,
+			);
+			path = MainBar;
 			sourceTree = "<group>";
 		};
 		2DE6AC2A296C9C5D00C815EA = {
@@ -97,6 +144,7 @@
 		2DE6AC35296C9C5D00C815EA /* Tinn */ = {
 			isa = PBXGroup;
 			children = (
+				2DAD2273296F589B00346EBE /* Model */,
 				2DAD226D296E19D100346EBE /* View */,
 				2DAD2268296E049200346EBE /* ViewModel */,
 				2DAD2265296DFF0400346EBE /* Service */,
@@ -120,8 +168,9 @@
 		2DE6AC4A296CA78700C815EA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2DE6AC4D296CA8F300C815EA /* centurygothic_bold.ttf */,
-				2DE6AC4C296CA8F300C815EA /* centurygothic.ttf */,
+				2DAD22E629730F9C00346EBE /* CenturyGothic-Bold.ttf */,
+				2D2D64E02974846E00462901 /* Nunito.ttf */,
+				2DAD22E729730F9C00346EBE /* CenturyGothic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -142,6 +191,9 @@
 			dependencies = (
 			);
 			name = Tinn;
+			packageProductDependencies = (
+				2DAD227A296F7F6000346EBE /* Alamofire */,
+			);
 			productName = Tinn;
 			productReference = 2DE6AC33296C9C5D00C815EA /* Tinn.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 2DE6AC2A296C9C5D00C815EA;
+			packageReferences = (
+				2DAD2279296F7F6000346EBE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2DE6AC34296C9C5D00C815EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,7 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE6AC3E296C9C5F00C815EA /* Preview Assets.xcassets in Resources */,
+				2DAD22E929730F9C00346EBE /* CenturyGothic.ttf in Resources */,
 				2DE6AC3B296C9C5F00C815EA /* Assets.xcassets in Resources */,
+				2DAD22E829730F9C00346EBE /* CenturyGothic-Bold.ttf in Resources */,
+				2D2D64E12974846E00462901 /* Nunito.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +255,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE6AC4F296CBA0A00C815EA /* RegisterScreen.swift in Sources */,
+				2DD6D75329753FD5004A13DC /* VideoCard.swift in Sources */,
 				2DE6AC45296C9D4000C815EA /* SplashScreen.swift in Sources */,
 				2DE6AC37296C9C5D00C815EA /* TinnApp.swift in Sources */,
 				2DAD2272296F03C500346EBE /* Home.swift in Sources */,
+				2DAD2278296F7E0B00346EBE /* APIManager.swift in Sources */,
+				2DAD227D29705F4600346EBE /* LoginScreen.swift in Sources */,
 				2DE6AC47296CA46A00C815EA /* HomeScreen.swift in Sources */,
+				2DAD2275296F58FB00346EBE /* Model.swift in Sources */,
 				2DAD226F296E1A0A00346EBE /* ContinueRegister.swift in Sources */,
+				2DD6D74F2975282A004A13DC /* TabBar.swift in Sources */,
 				2DAD226A296E04AB00346EBE /* LoginViewModel.swift in Sources */,
 				2DAD226C296E134700346EBE /* EmailConfirm.swift in Sources */,
 				2DAD2267296DFF3C00346EBE /* Webservice.swift in Sources */,
+				2DD6D751297539BB004A13DC /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +469,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DAD2279296F7F6000346EBE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DAD227A296F7F6000346EBE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DAD2279296F7F6000346EBE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DE6AC2B296C9C5D00C815EA /* Project object */;
 }

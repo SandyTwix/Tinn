@@ -19,8 +19,9 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>centurygothic_bold.ttf</string>
-		<string>centurygothic.ttf</string>
+		<string>Nunito.ttf</string>
+		<string>CenturyGothic.ttf</string>
+		<string>CenturyGothic-Bold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
