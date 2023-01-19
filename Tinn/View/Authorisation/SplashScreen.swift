@@ -33,7 +33,7 @@ struct SplashScreen: View {
                         self.opacity = 1.0
                     }
                 }
-            }
+            }//ZStack
             .onAppear{
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     self.isActive = true

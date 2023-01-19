@@ -68,7 +68,7 @@ struct EmailConfirm: View {
                         .background(viewModel.emailCode.isEmpty ? Color.blue.opacity(0.3) : Color.blue)
                         .cornerRadius(8)
                         .padding(.top, 60)
-                    }
+                    }//NavigationLink
                     .disabled(viewModel.emailCode.isEmpty ? true : false)
                     .onReceive(viewModel.$isComfirmedCode) { viewModel in
                         if viewModel{
@@ -76,9 +76,9 @@ struct EmailConfirm: View {
                         }
                     }
                     .navigationBarBackButtonHidden(true)
-                }
-            }
-        }
+                }//VStack
+            }//VStack
+        }//ZStack
         .preferredColorScheme(.light)
     }
 }

@@ -115,7 +115,7 @@ struct LoginView: View {
                                 
                             }
                             .padding(.leading, 10)
-                        }
+                        }//HStack
                     }//HStack
                     .padding(.trailing, 5)
                     .padding(.top, 5)
@@ -131,7 +131,7 @@ struct LoginView: View {
                     .padding(.top, 60)
                     
                     NavigationLink(isActive: $homeViewIsOn) {
-                        Home()
+                        TabBarViews()
                             .navigationBarBackButtonHidden(true)
                     } label: {
                         Button {
