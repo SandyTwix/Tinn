@@ -30,6 +30,7 @@ struct RegisterScreen: View {
                     VStack(spacing: 5){
                         TextField("E-mail", text: $viewModel.email)
                             .font(.custom("Nunito", size: 16))
+                            .keyboardType(.emailAddress)
                             .padding()
                             .frame(width: 300, height: 32)
                         
@@ -63,7 +64,7 @@ struct RegisterScreen: View {
                                     .aspectRatio(contentMode: .fit)
                                     .offset(x: -10)
                             }
-                        }
+                        }//HStack
                         
                         Rectangle()
                             .frame(width: 280, height: 0.6)
@@ -148,10 +149,6 @@ struct RegisterScreen: View {
                     } label: {
                         Button {
                             viewModel.register()
-                            
-                            //                                if viewModel.isRegistred{
-                            //                                    emailViewIsOn.toggle()
-                            //                                }
                         } label: {
                             Text("Продолжить")
                                 .foregroundColor(.white)

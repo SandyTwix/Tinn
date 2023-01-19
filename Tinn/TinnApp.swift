@@ -11,7 +11,6 @@ import SwiftUI
 struct TinnApp: App {
     var body: some Scene {
         WindowGroup {
-            //uthentication()
             SplashScreen()
         }
     }

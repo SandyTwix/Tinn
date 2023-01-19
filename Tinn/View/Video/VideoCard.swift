@@ -11,26 +11,30 @@ struct VideoCard: View {
     var body: some View {
         ZStack{
             VStack(spacing: 0) {
-                VStack(alignment: .leading, spacing: 15) {
-                    Rectangle()
-                        .fill(Color.gray)
-                        .frame(width: .infinity, height: 190)
+                VStack(alignment: .leading, spacing: 20) {
+                    Image("video")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(height: 190)
                         .padding(.horizontal, 10)
                     
                     HStack(spacing: 10){
-                        Circle()
-                            .fill(Color.gray)
+                        Image("avatar")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
                             .frame(width: 40, height: 40)
+                            .clipShape(Circle())
+                        
                         VStack(alignment: .leading,spacing: 0) {
-                            Text("Lorem ipsum dolor sit amet, con.")
+                            Text("Красивые горы")
                                 .font(.custom("Nunito", size: 16))
-                            Text("Lorem ip")
+                            Text("sandytwix")
                                 .font(.custom("Nunito", size: 14))
                                 .foregroundColor(.gray)
                         }
                     }
                     .padding(.horizontal, 10)
-                        
+                    
                 }
             }
             .frame(width: 400, height: 270)
@@ -44,8 +48,9 @@ struct VideoCard: View {
                     .foregroundColor(.white)
                     .font(.custom("", size: 11))
             }
-            .offset(x: 165, y: 50)
-        }
+            .offset(x: 165, y: 60)
+        }//ZStack
+        .padding(.top, 5)
     }
 }
 

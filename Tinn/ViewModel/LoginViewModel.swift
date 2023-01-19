@@ -29,7 +29,7 @@ class LoginViewModel: ObservableObject {
         Webservice().login(email: email, password: password) { result in
             switch result {
                case .success(let token):
-                print("Success: \(token)")
+                //print("Success: \(token)")
                 UserDefaults.standard.setValue(token, forKey: "jsonwebtoken")
                 DispatchQueue.main.async {
                         self.isAuthenticated = true
@@ -52,7 +52,7 @@ class LoginViewModel: ObservableObject {
         Webservice().registration(email: email, password: password, password_confirmation: password_confirmation, code: code) { result in
             switch result {
                case .success(let token):
-                print("Success: \(token)")
+                //print("Success: \(token)")
                 UserDefaults.standard.setValue(token, forKey: "jsonwebtoken")
                 DispatchQueue.main.async {
                         self.isRegistred = true
@@ -72,7 +72,7 @@ class LoginViewModel: ObservableObject {
         Webservice().emailComfirmation(code: comfirmCode) { result in
             switch result {
                case .success(let token):
-                print("Success: \(token)")
+                //print("Success: \(token)")
                 UserDefaults.standard.setValue(token, forKey: "jsonwebtoken")
                 DispatchQueue.main.async {
                         self.isComfirmedCode = true

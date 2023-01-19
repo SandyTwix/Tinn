@@ -14,7 +14,7 @@ struct HomeScreen: View {
         if viewModel.isAuthenticated == false{
            return AnyView(LoginView())
         } else {
-           return AnyView(Home())
+           return AnyView(TabBarViews())
         }
     }
 }
