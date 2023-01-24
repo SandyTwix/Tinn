@@ -86,13 +86,13 @@ struct Home: View {
                 
                 if player.showPlayer{
                     MiniPlayer()
-                        //.frame(alignment: .top)
                         .transition(.move(edge: .bottom))
                         .offset(y: player.offset)
                         .gesture(DragGesture().updating($gestureOffset, body: { value, state, _ in
                             state = value.translation.height
                         })
                         .onEnded(onEnd(value:)))
+                        .padding(.leading, 3.5)
                 }
             }//ZStack
             .background(Color(red: 0.98, green: 0.988, blue: 1).edgesIgnoringSafeArea(.all))

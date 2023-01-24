@@ -22,7 +22,7 @@ struct VideoPlayerView: UIViewControllerRepresentable {
         controller.player = mailPlayer
         
         //Hiding Controls
-        controller.showsPlaybackControls = false
+        //controller.showsPlaybackControls = false
         controller.videoGravity = .resizeAspectFill
         
         return controller

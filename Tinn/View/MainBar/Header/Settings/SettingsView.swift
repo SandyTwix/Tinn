@@ -56,25 +56,25 @@ struct SettingsView: View {
                     case 0:
                         NavigationView{
                             VStack{
-                                General()
+                                Generall()
                             }
                         }
                     case 1:
                         NavigationView{
                             VStack{
-                                PersonalData()
+                                PersonalDataa()
                             }
                         }
                     case 2:
                         NavigationView{
                             VStack{
-                                Security()
+                                Securityy()
                             }
-                        }
+                        } // 1396620412
                     case 3:
                         NavigationView{
                             VStack{
-                                Privacy()
+                                Privacyy()
                             }
                         }
                     case 4:

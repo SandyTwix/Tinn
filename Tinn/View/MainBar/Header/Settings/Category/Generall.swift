@@ -244,10 +244,10 @@ struct Generall: View {
                             
                             Spacer()
                         }
-                        .offset(y: 90)
+                        .offset(y: 40)
                         
                     }
-                    .frame(height: 200)
+                    .frame(height: 100)
                 }
                 
                 //Text("Вы можете удалить свой акаунт")
