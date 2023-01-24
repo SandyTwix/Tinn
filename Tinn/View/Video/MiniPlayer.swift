@@ -302,9 +302,11 @@ struct VideoControls: View {
             }
             
             Button {
+                withAnimation(.default){
                     player.showPlayer.toggle()
                     player.offset = 0
                     player.isMiniPlayer.toggle()
+                }
             } label: {
                 Image(systemName: "xmark")
                     .font(.title2)

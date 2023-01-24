@@ -66,7 +66,7 @@ struct TabBar: View {
                         .offset(y: 15)
                         
                         NavigationLink {
-                            MarketplaceView()
+                            Marketplace()
                         } label: {
                             VStack(spacing: 5){
                                 Image(self.index == 5 ? "marketplace.fill" : "marketplace")

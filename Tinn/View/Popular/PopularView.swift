@@ -24,11 +24,6 @@ struct PopularView: View {
     ]
     var body: some View {
         VStack{
-            HeaderView()
-                .padding(.bottom, 10)
-                .shadow(color: .black.opacity(0.15), radius: 20)
-            
-            
             HStack{
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack {
@@ -65,6 +60,7 @@ struct PopularView: View {
                             Spacer()
                         }
                     }//HStack
+                    .padding(.top, 50)
                 }//ScrollView
             }//HStack
             .padding(.bottom, 10)
@@ -107,11 +103,17 @@ struct PopularView: View {
             
             Spacer()
         }//VStack
+        .overlay(alignment: .top) {
+            HeaderView()
+                .shadow(color: .black.opacity(0.15), radius: 20)
+            
+        }
     }
 }
 
 struct PopularView_Previews: PreviewProvider {
     static var previews: some View {
         PopularView()
+        
     }
 }

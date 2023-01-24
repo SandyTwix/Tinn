@@ -12,9 +12,6 @@ struct ForumView: View {
         ZStack{
             Color(red: 0.98, green: 0.988, blue: 1)
             VStack{
-                HeaderView()
-                    .shadow(color: .black.opacity(0.15), radius: 20)
-                    .padding(.bottom, 10)
                 ScrollView(showsIndicators: false) {
                     VStack(spacing: 10){
                         HStack{
@@ -56,10 +53,13 @@ struct ForumView: View {
                     
                 }//ScrollView
                 .refreshable {
-                    
                 }
-                
             }
+            .padding(.top, 40)
+        }
+        .overlay(alignment: .top) {
+            HeaderView()
+                .shadow(color: .black.opacity(0.15), radius: 20)
         }
     }
 }

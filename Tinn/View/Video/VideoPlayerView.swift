@@ -14,16 +14,15 @@ struct VideoPlayerView: UIViewControllerRepresentable {
         let controller = AVPlayerViewController()
         
         // Video URL
-        let video_url = URL(string: "https://www.youtube.com/watch?v=LXb3EKWsInQ&t=101s")
+        let url = "https://www.youtube.com/watch?v=3oyvGa7os5Q"
         
         // Player
-        let player = AVPlayer(url: video_url!)
+        let mailPlayer = AVPlayer(url: URL(string: url)!)
         
-        controller.player = player
+        controller.player = mailPlayer
         
         //Hiding Controls
         controller.showsPlaybackControls = false
-        controller.player?.play()
         controller.videoGravity = .resizeAspectFill
         
         return controller

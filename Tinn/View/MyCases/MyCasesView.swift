@@ -21,8 +21,6 @@ struct MyCasesView: View {
     var body: some View {
         ZStack{
             VStack{
-                HeaderView()
-                    .shadow(color: .black.opacity(0.15), radius: 20)
                 ScrollView{
                     VStack{
                         HStack{
@@ -87,7 +85,12 @@ struct MyCasesView: View {
                     
                 }
             }//VStack
+            .padding(.top, 40)
         }//ZStack
+        .overlay(alignment: .top) {
+            HeaderView()
+                .shadow(color: .black.opacity(0.15), radius: 20)
+        }
     }
 }
 
