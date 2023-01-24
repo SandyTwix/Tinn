@@ -11,6 +11,7 @@ struct MiniPlayer: View {
     //Screen Height
     @EnvironmentObject var player: VideoPlayerViewModel
     @State var comment = ""
+    @State var liked = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -80,10 +81,10 @@ struct MiniPlayer: View {
                         }
                         
                         HStack(spacing: 0) {
-                            PlayBackVideoButton(image: "like")
-                            PlayBackVideoButton(image: "money")
-                            PlayBackVideoButton(image: "share")
-                            PlayBackVideoButton(image: "add")
+                            PlayBackVideoButton(image: liked ? "like_fill" : "like", liked: $liked)
+                            PlayBackVideoButton(image: "money", liked: $liked)
+                            PlayBackVideoButton(image: "share", liked: $liked)
+                            PlayBackVideoButton(image: "add", liked: $liked)
                         }
                         .offset(x: -20)
                         .padding(.top, 10)
@@ -257,9 +258,10 @@ struct MiniPlayer_Previews: PreviewProvider {
 
 struct PlayBackVideoButton: View {
     var image: String
+    @Binding var liked: Bool
     var body: some View {
         Button {
-            
+            liked.toggle()
         } label: {
             Image(image)
         }
@@ -302,9 +304,11 @@ struct VideoControls: View {
             }
             
             Button {
+                withAnimation(.default){
                     player.showPlayer.toggle()
                     player.offset = 0
                     player.isMiniPlayer.toggle()
+                }
             } label: {
                 Image(systemName: "xmark")
                     .font(.title2)

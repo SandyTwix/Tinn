@@ -15,10 +15,8 @@ struct Home: View {
     
     var body: some View {
         NavigationView{
-            ZStack{
+            ZStack(alignment: .bottom){
                 VStack(spacing: 0){
-                    HeaderView()
-                        .shadow(color: .black.opacity(0.15), radius: 20)
                     ScrollView(.vertical, showsIndicators: false) {
                         VStack(alignment: .leading, spacing: 0){
                             Text("Рекомендуемое")
@@ -86,9 +84,30 @@ struct Home: View {
                     
                 }//VStack
                 
+                if player.showPlayer{
+                    MiniPlayer()
+                        .transition(.move(edge: .bottom))
+                        .offset(y: player.offset)
+                        .gesture(DragGesture().updating($gestureOffset, body: { value, state, _ in
+                            state = value.translation.height
+                        })
+                        .onEnded(onEnd(value:)))
+                        .padding(.leading, 3.5)
+                }
             }//ZStack
             .background(Color(red: 0.98, green: 0.988, blue: 1).edgesIgnoringSafeArea(.all))
+            .onChange(of: gestureOffset) { value in
+                onChanged()
+            }
+            .environmentObject(player)
         }//NavigationView
+        .padding(.top, 30)
+        .overlay(alignment: .top) {
+            if !player.showPlayer{
+                HeaderView()
+                    .shadow(color: .black.opacity(0.15), radius: 20)
+            }
+        }
     }
     
     func onChanged(){

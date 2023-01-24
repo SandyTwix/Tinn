@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TabBarViews: View {
     @State var selectedIndex = 0
-    
     let icons = [
     "home",
     "popular",
@@ -37,7 +36,9 @@ struct TabBarViews: View {
                     NavigationView{
                         VStack{
                             withAnimation(.spring()){
-                                Home()
+                                ZStack{
+                                    Home()
+                                }
                             }
                         }
                     }
